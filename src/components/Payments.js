@@ -1,0 +1,94 @@
+export default function Payments() {
+  return (
+    <div className="payment-options">
+      <div className="top-section">
+        <p>Payment method</p>
+        <div>
+          <button>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/PayPal.svg/1200px-PayPal.svg.png"
+              height="30px"
+              width="60px"
+            />
+          </button>
+          <button>
+            <img
+              src="https://usa.visa.com/dam/VCOM/regional/ve/romania/blogs/hero-image/visa-logo-800x450.jpg"
+              height="30px"
+              width="60px"
+            />
+          </button>
+          <button>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/2560px-Mastercard-logo.svg.png"
+              height="30px"
+              width="60px"
+            />
+          </button>
+        </div>
+        <div>
+          <button>
+            <img
+              src="https://www.brandcolorcode.com/media/maestro-logo.png"
+              height="30px"
+              width="60px"
+            />
+          </button>
+          <button>
+            <img
+              src="https://1000logos.net/wp-content/uploads/2021/05/Discover-logo.png"
+              height="30px"
+              width="60px"
+            />
+          </button>
+          <button>
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/e/e9/IDEAL_Logo.png"
+              height="30px"
+              width="60px"
+            />
+          </button>
+        </div>
+      </div>
+      <div className="bottom-section">
+        <p>Delivery method</p>
+        <div>
+          <button>
+            <img
+              src="https://seeklogo.com/images/I/inpost-logo-F04BCA29D0-seeklogo.com.png"
+              height="30px"
+              width="60px"
+            />
+            $20.00
+          </button>
+          <button>
+            <img
+              src="https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-thumbnail/s3/072015/dpd-logo-2015_0.png"
+              height="30px"
+              width="60px"
+            />
+            $12.00
+          </button>
+        </div>
+        <div>
+          <button>
+            <img
+              src="https://logos-world.net/wp-content/uploads/2020/08/DHL-Emblem.png"
+              height="30px"
+              width="60px"
+            />
+            $15.00
+          </button>
+          <button>
+            <img
+              src="https://cdn.mos.cms.futurecdn.net/SFJxCXKMZihnZsVnn3LoEk.jpg"
+              height="30px"
+              width="60px"
+            />
+            $10.00
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}

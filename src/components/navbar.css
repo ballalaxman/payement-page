@@ -1,0 +1,42 @@
+.navbar {
+  width: 90%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+  border-bottom: 1px solid #332d2d;
+}
+.left-section {
+  display: flex;
+  flex-direction: row;
+  width: 140px;
+  justify-content: space-between;
+  font-size: 20px;
+  align-items: center;
+}
+.middle-section {
+  display: flex;
+  flex-direction: row;
+  width: 220px;
+  justify-content: space-between;
+  font-size: 20px;
+  align-items: center;
+}
+.right-section {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  justify-content: space-between;
+  align-items: center;
+}
+#e {
+  color: #fbd79e;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.right-section img {
+  cursor: pointer;
+}
